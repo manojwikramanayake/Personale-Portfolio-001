@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personale Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7775c4a02f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <img src="Images/WEB LOGO.png" class="WEB LOGO">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav> 
+        <div class="header-text">
+           <p>Hi, There !</p>
+           <h1>I'm <span class="typed-text"></span><span class="cursor">&nbsp;</span><br> From Sri Lanka</h1>
+        </div>
+    </div>
+<!----------about---------->
+    <div id="about">
+        <div class="font-size: 14px;">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Artboard 1.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                       <p class="about-body"> I'm a full time online based Graphic Designer.
+                           Always on the look for exciting projects to work on and smart people to collaborate with!
+                           I spend most of my work life in adobe photoshop & illustrator.
+                            Having 2+ Years experience.i just love working on
+                            flyer design , logo design and nft , sent message for any query.
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Logo Design</span><br>Company Logo,Business Logo,moscot Logo</li>
+                            <li><span>Flyer Design</span><br>Business Flyer,Event Flyer,Invitation card,Marketing Flyer</li>
+                            <li><span>Cover Design</span><br>Book Covers,Music album Cover</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019-2020</span><br>Fiverr web site logo designer (Level 1)</li>
+                            <li><span>2020-2021</span><br>Fiverr,Upwork,freelancer(top rated)</li>
+                            <li><span>2021-2022</span><br>SS.Design Company Start</li>
+                            <li><span>2022</span><br>SS.Design Company Worldwide branches start</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>School </span><br>2020 G.C.E: A/L Exam Passed</li>
+                            <li><span>certificate Courses</span><br>Graphic Design(Vijaya Graphic Acadamy),English Course(NISCO)<br></li>
+                            <li><span>Dgrees</span><br>Data Science-RUSL(Undergraduate)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-joomla"></i>
+                <h2>Logo Design</h2>
+                <p>Abstract mark, Moscot logo, combination mark, Emblem logo, Lettermark, Pictorial mark, Wordmark</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-pied-piper-alt"></i>
+                <h2>NFT Design</h2>
+                <p>NFT Logo Disign, 100+ Collection Genarates, 1000+ Collection Genarates</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book-open-reader"></i>
+                <h2>Flyers Design</h2>
+                <p>Handbills, Posters, Pamphlets, Marketing Flyers, Degital Flyers</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/WORK 1.png" >
+                <div class="layer">
+                    <h3>Company Logo Design</h3>
+                    <p>You can create any type of logo you want.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Work 2.jpg" >
+                <div class="layer">
+                    <h3>NFT Design</h3>
+                    <p>You can create and Genarates any type of NFT art Collection you want.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/WORK 3.png" >
+                <div class="layer">
+                    <h3>Flyer Design</h3>
+                    <p>You can create any type of Flyer you want(Event,function,Party and Etc).</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------contact---------------->
+<div id="contact">
+   <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> alexacontact@example.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 077-5555666</p>
+                <div class="social-icons">
+                    <a href="https://m.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://lk.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Images/My CV.docx" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+   </div>
+   <div class="copyright">
+    <p>© 2020 Alexa <i class="fas fa-heart"></i> - All Rights Reserved.</p>
+   </div>
+</div>
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+        
+    }
+</script>  
+
+<script >
+    var typed = new Typed(".typing",{
+        String:["wademas","kjanlax","oiajcso","jaoscjo"],
+        typeSpeed:100,
+        BackSpeed:60,
+        loop:true
+
+    })
+        
+
+</script>
+
+<script >
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-500px";
+    }
+
+</script>
+<script>
+    const typedTextSpan = document.querySelector(".typed-text");
+    const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["Alexa Warnakulasuriya", "Graphic Designer",];
+const typingDelay = 200;
+const erasingDelay = 100;
+const newTextDelay = 3000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+  	setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+	if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzyDbUQONv34T73Xw7dRxOPbhkzDvXiv7uHTIWmdosk2ji_tFmEl8agofsNVNAOKmqW/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html> 
